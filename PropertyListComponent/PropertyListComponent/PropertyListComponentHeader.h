@@ -14,4 +14,5 @@ FOUNDATION_EXPORT const unsigned char PropertyListComponentVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <PropertyListComponent/PublicHeader.h>
 
-#import "PropertyListComponent.h"
+#import <PropertyListComponent/PropertyListComponent.h>
+
