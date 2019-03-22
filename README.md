@@ -1,0 +1,2 @@
+# PropertyListComponent
+プロパティリストを扱い易くする
