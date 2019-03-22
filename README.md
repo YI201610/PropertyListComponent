@@ -39,9 +39,12 @@ print(plistBuffer!)
 
 - Library/Application Support ディレクトリ配下にplistを書き込み
   - ディレクトリタイプは、いくつか選べます。
+	- PropertyListComponentDirectoryTypeLibraryApplicationSupport ... Library/Application Support
     - PropertyListComponentDirectoryTypeLibraryCaches ... Library/Caches
 	- PropertyListComponentDirectoryTypeDocuments ... Documents
 	- PropertyListComponentDirectoryTypeTmp ... tmp
+
+(e.g.) obj-c
 
 ```
 NSString *dynamicKey = [NSString stringWithFormat:@"key_%@", [self currentDatetimeString]];
