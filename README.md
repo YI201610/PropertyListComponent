@@ -15,17 +15,26 @@
 
 - インポート
 
+(e.g.) obj-c
+
 ```
 #import <PropertyListComponent/PropertyListComponent.h>
 ```
 
 - plistの読み込み
 
+(e.g.) swift
+
 ```
 let testBundle = Bundle(for: type(of: self))
-let plistPath = testBundle.path(forResource: "topMenuTest", ofType: "plist")
+let path = testBundle.path(forResource: "topMenu", ofType: "plist")
+        
+guard let plistPath = path else {
+	return String()
+}
 
-NSArray* plist = [PropertyListComponent plistWithPath:plistNameString];
+let plistBuffer = PropertyListComponent.plist(withPath: plistPath)
+print(plistBuffer!)
 ```
 
 - Library/Application Support ディレクトリ配下にplistを書き込み
