@@ -6,10 +6,10 @@
 
 1. ビルドします。
 2. 成果物（.framework）をFinderで特定します。
-<img src="https://github.com/YI201610/PropertyListComponent/blob/develop/images/build.png" width=640>
+<img src="https://github.com/YI201610/PropertyListComponent/blob/develop/images/build.png" width="600">
 
 3. frameworkを入れたいプロジェクトに、EmbeddedFrameworkとして取り込みます。
-<img src="https://github.com/YI201610/PropertyListComponent/blob/develop/images/install.png" width=640>
+<img src="https://github.com/YI201610/PropertyListComponent/blob/develop/images/install.png" width="600">
 
 ## 使い方
 
